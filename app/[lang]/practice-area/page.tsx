@@ -1,6 +1,6 @@
 import { getDictionary } from "../../get-dictionary";
 import Image from "next/image";
-import batikBg from "../../assets/images/batik2.png";
+import batikBg from "../../assets/images/batik.jpg";
 import BatikFooter from "../../components/BatikFooter";
 
 export default async function PracticeArea({
