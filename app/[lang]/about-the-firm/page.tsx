@@ -2,6 +2,7 @@ import { getDictionary } from "../../get-dictionary";
 import Image from "next/image";
 import batikBg from "../../assets/images/batik5.jpg";
 import batikBg2 from "../../assets/images/batik2.png";
+import garudaImg from "../../assets/images/garuda.png";
 import BatikFooter from "../../components/BatikFooter";
 import FadeIn, { FadeInHero } from "../../components/FadeIn";
 
@@ -54,14 +55,27 @@ export default async function About({
             </section>
 
             {/* Content */}
-            <section className="relative bg-white">
+            <section className="relative bg-white [clip-path:inset(0)]">
                 {/* Top border */}
                 <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+                <div
+                    className="fixed inset-0 pointer-events-none flex items-center lg:justify-start justify-center lg:pl-[calc((100vw-80rem)/2+1.5rem)] md:lg:pl-[calc((100vw-80rem)/2+3rem)]"
+                    aria-hidden="true"
+                >
+                    <div className="w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[550px] lg:h-[550px] opacity-[0.05] md:opacity-[0.06] lg:translate-x-[15%]">
+                        <Image
+                            src={garudaImg}
+                            alt=""
+                            fill
+                            className="object-contain"
+                        />
+                    </div>
+                </div>
 
-                <div className="container mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
-                    <div className="grid gap-16 lg:grid-cols-12 lg:gap-20 items-center">
+                <div className="container relative mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
+                    <div className="grid gap-16 lg:grid-cols-12 lg:gap-20 items-start">
                         {/* Text column */}
-                        <div className="lg:col-span-7 space-y-12">
+                        <div className="lg:col-span-7 space-y-10 relative">
                             {/* Section label */}
                             <FadeIn direction="left" distance={40}>
                                 <div className="flex items-center gap-4">
@@ -72,39 +86,68 @@ export default async function About({
                                 </div>
                             </FadeIn>
 
-                            {/* Main content */}
+                            {/* Main content - paragraphs */}
                             <div className="space-y-8">
-                                <FadeIn delay={0.1}>
-                                    <div className="group">
-                                        <p className="text-xl leading-[1.9] text-gray-700 md:text-2xl font-light">
-                                            {dict.about.description1}
-                                        </p>
-                                    </div>
-                                </FadeIn>
-
-                                <FadeIn delay={0.2}>
-                                    <div className="h-px w-24 bg-gray-200 my-10" />
-                                </FadeIn>
-
-                                <FadeIn delay={0.3}>
-                                    <div className="group">
-                                        <p className="text-lg leading-[1.9] text-gray-600 md:text-xl font-light">
-                                            {dict.about.description2}
-                                        </p>
-                                    </div>
-                                </FadeIn>
+                                {dict.about.paragraphs.map(
+                                    (paragraph, index) => (
+                                        <FadeIn
+                                            key={index}
+                                            delay={0.1 + index * 0.08}
+                                        >
+                                            <p className="text-lg leading-[1.9] text-gray-600 md:text-xl font-light">
+                                                {paragraph.hasFirmName && (
+                                                    <strong className="font-semibold text-gray-900">
+                                                        {dict.about.firmName}
+                                                    </strong>
+                                                )}
+                                                {paragraph.hasFirmNameInText ? (
+                                                    <>
+                                                        {paragraph.text
+                                                            .split(
+                                                                "AUDY & ANTONI",
+                                                            )
+                                                            .map(
+                                                                (
+                                                                    part,
+                                                                    i,
+                                                                    arr,
+                                                                ) => (
+                                                                    <span
+                                                                        key={i}
+                                                                    >
+                                                                        {part}
+                                                                        {i <
+                                                                            arr.length -
+                                                                                1 && (
+                                                                            <strong className="font-semibold text-gray-900">
+                                                                                AUDY
+                                                                                &
+                                                                                ANTONI
+                                                                            </strong>
+                                                                        )}
+                                                                    </span>
+                                                                ),
+                                                            )}
+                                                    </>
+                                                ) : (
+                                                    paragraph.text
+                                                )}
+                                            </p>
+                                        </FadeIn>
+                                    ),
+                                )}
                             </div>
 
-                            {/* Decorative element */}
-                            <FadeIn delay={0.4} direction="left" distance={30}>
+                            {/* Decorative tagline */}
+                            <FadeIn delay={0.6} direction="left" distance={30}>
                                 <div className="pt-8">
                                     <div className="inline-flex items-center gap-3 border-l-2 border-gray-900 pl-6">
                                         <div className="space-y-1">
                                             <p className="font-serif text-2xl font-light text-gray-900 italic md:text-3xl">
-                                                Excellence in every case.
+                                                {dict.about.tagline}
                                             </p>
                                             <p className="text-sm text-gray-500 tracking-wide font-light">
-                                                Our commitment to you
+                                                {dict.about.taglineSubtext}
                                             </p>
                                         </div>
                                     </div>
@@ -113,40 +156,37 @@ export default async function About({
                         </div>
 
                         {/* Image column */}
-                        <FadeIn
-                            className="lg:col-span-5"
-                            delay={0.2}
-                            direction="right"
-                            distance={50}
-                        >
-                            <div className="relative">
-                                <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl shadow-2xl lg:aspect-[4/5]">
-                                    <Image
-                                        src={batikBg2}
-                                        alt="Batik Pattern"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                        <div className="lg:col-span-5 lg:sticky lg:top-28">
+                            <FadeIn delay={0.2} direction="right" distance={50}>
+                                <div className="relative">
+                                    <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl shadow-2xl lg:aspect-[4/5]">
+                                        <Image
+                                            src={batikBg2}
+                                            alt="Batik Pattern"
+                                            fill
+                                            className="object-cover"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
 
-                                    {/* Overlay text */}
-                                    <div className="absolute bottom-0 left-0 right-0 p-8">
-                                        <div className="border-l-4 border-white pl-6">
-                                            <p className="font-serif text-3xl font-light leading-tight text-white drop-shadow-lg md:text-4xl">
-                                                Unlocking potential,
-                                                <br />
-                                                <span className="text-white/90 italic">
-                                                    safeguarding success.
-                                                </span>
-                                            </p>
+                                        {/* Overlay text */}
+                                        <div className="absolute bottom-0 left-0 right-0 p-8">
+                                            <div className="border-l-4 border-white pl-6">
+                                                <p className="font-serif text-3xl font-light leading-tight text-white drop-shadow-lg md:text-4xl">
+                                                    Unlocking potential,
+                                                    <br />
+                                                    <span className="text-white/90 italic">
+                                                        safeguarding success.
+                                                    </span>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                {/* Decorative accent */}
-                                <div className="absolute -bottom-6 -right-6 h-32 w-32 bg-gray-900 rounded-full opacity-5 blur-3xl -z-10" />
-                            </div>
-                        </FadeIn>
+                                    {/* Decorative accent */}
+                                    <div className="absolute -bottom-6 -right-6 h-32 w-32 bg-gray-900 rounded-full opacity-5 blur-3xl -z-10" />
+                                </div>
+                            </FadeIn>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -3,7 +3,7 @@
         "home": "Beranda",
         "about": "Firma",
         "partners": "Tim",
-        "practices": "Area Praktik & Sektor Bisnis",
+        "practices": "Bidang Praktik",
         "contact": "Hubungi Kami"
     },
     "home": {
@@ -14,8 +14,37 @@
         "title": "Tentang Firma Kami",
         "subtitle": "Firma Hukum Indonesia Terpercaya",
         "sectionLabel": "Identitas Firma",
-        "description1": "AUDY & ANTONI, Kantor Hukum yang beroperasi secara mandiri di Indonesia, spesialis dalam berbagai urusan komersial, bisnis, dan litigasi. Bidang keahlian kami mencakup transaksi bisnis yang kompleks dan sengketa yang rumit. Di dalam firma kami, para pengacara terampil dalam menangani kompleksitas tersebut, beroperasi dengan lancar dalam lingkungan global. Kami membawa pengalaman yang luas, selalu responsif terhadap kebutuhan klien.",
-        "description2": "Para pengacara kami, dengan keahlian yang saling melengkapi, memungkinkan kami untuk menyediakan layanan hukum yang komprehensif, mencakup praktik hukum korporasi, sekuritas, dan penyelesaian sengketa. Klien dapat mengharapkan solusi yang komprehensif dan terintegrasi, karena kami secara mulus mengintegrasikan keahlian kami yang beragam untuk memenuhi kebutuhan mereka yang kompleks."
+        "firmName": "AUDY & ANTONI Counsellors at Law",
+        "firmNameShort": "AUDY & ANTONI",
+        "paragraphs": [
+            {
+                "text": " (\"AUDY & ANTONI\") merupakan Firma Hukum Indonesia independen yang mengkhususkan diri dalam berbagai bidang hukum komersial, urusan bisnis, penyelesaian sengketa, dan litigasi. Didirikan dengan komitmen terhadap keunggulan hukum, kejelasan strategis, dan integritas yang tidak dapat ditawar, Firma ini telah memposisikan diri sebagai mitra hukum terpercaya bagi korporasi, pemimpin bisnis, dan klien yang menghadapi permasalahan hukum dan regulasi.",
+                "hasFirmName": true
+            },
+            {
+                "text": "Praktik kami berakar kuat pada realitas perdagangan modern. Kami secara rutin memberikan nasihat mengenai transaksi kompleks dan perkara sengketa yang memerlukan bukan hanya penguasaan teknis hukum, tetapi juga pemahaman mendalam tentang dinamika bisnis, manajemen risiko, dan pertimbangan lintas yurisdiksi. Baik dalam memberikan nasihat strategis untuk transaksi maupun sebagai advokat yang teguh dalam litigasi dan arbitrase, kami menangani setiap mandat dengan ketelitian, presisi, dan pandangan ke depan.",
+                "hasFirmName": false
+            },
+            {
+                "text": "Para advokat Firma kami adalah praktisi berpengalaman dengan bidang keahlian yang saling melengkapi, memungkinkan kami menyediakan solusi hukum yang terintegrasi dan menyeluruh. Praktik inti kami mencakup hukum korporasi dan komersial, serta penyelesaian sengketa, termasuk litigasi kompleks dan mekanisme penyelesaian sengketa alternatif. Kekuatan multidisiplin ini memungkinkan kami menangani kebutuhan hukum klien secara holistik, memastikan konsistensi strategi di seluruh aspek penasihat dan sengketa.",
+                "hasFirmName": false
+            },
+            {
+                "text": "Beroperasi dengan nyaman dalam konteks domestik maupun internasional, para advokat kami terbiasa terlibat dalam transaksi lintas batas, pihak asing, dan pemangku kepentingan multinasional. Kami menggabungkan penguasaan kuat terhadap hukum Indonesia dengan wawasan global, memungkinkan kami menjembatani perbedaan hukum, budaya, dan komersial dengan percaya diri dan efektif.",
+                "hasFirmName": false
+            },
+            {
+                "text": "Di AUDY & ANTONI, nasihat hukum diberikan dengan fokus pada responsivitas, kegunaan praktis, dan keselarasan dengan tujuan klien. Setiap penugasan didekati melalui evaluasi cermat terhadap posisi hukum dan lingkungan komersial klien, dengan nasihat yang dirumuskan agar secara hukum benar, terinformasi secara komersial, dan dapat dieksekusi secara praktis.",
+                "hasFirmName": false,
+                "hasFirmNameInText": true
+            },
+            {
+                "text": "Dipandu oleh profesionalisme, kebijaksanaan, dan dedikasi teguh terhadap kepentingan klien kami, kami berupaya membangun hubungan jangka panjang yang didasarkan pada kepercayaan dan hasil. Komitmen kami adalah untuk melayani lebih dari sekadar penasihat hukum—kami bertujuan menjadi mitra strategis, berdiri bersama klien kami saat mereka menghadapi tantangan, memanfaatkan peluang, dan memajukan tujuan bisnis mereka dengan percaya diri.",
+                "hasFirmName": false
+            }
+        ],
+        "tagline": "Keunggulan dalam setiap kasus.",
+        "taglineSubtext": "Komitmen kami kepada Anda"
     },
     "partners": {
         "title": "Tim Kami",
@@ -31,11 +60,12 @@
                 "name": "AUDY RAHMAT, S.H.",
                 "title": "Partner",
                 "bio": [
-                    "Audy Rahmat adalah seorang pengacara dengan puluhan tahun pengalaman. Ia memimpin praktik hukum korporasi umum, penyelesaian sengketa, dan litigasi di firma hukum tersebut. Praktiknya berfokus pada kasus-kasus komersial yang umumnya timbul dari perjanjian dan transaksi komersial bernilai tinggi.",
-                    "Audy telah bertindak di semua tingkatan persidangan di pengadilan Indonesia, termasuk Pengadilan Negeri (untuk sengketa umum dan perkara pidana), Pengadilan Niaga (untuk kepailitan dan penundaan pembayaran, Hak Kekayaan Intelektual), dan Pengadilan Hubungan Industrial (untuk sengketa ketenagakerjaan), serta membela klien yang menghadapi proses pidana di Kepolisian. Mewakili klien Indonesia dan internasional dalam kasus-kasus yang berkaitan dengan penagihan utang, gugatan perdata, kepailitan, maritim dan pengiriman barang, asuransi, serta sengketa bisnis lainnya. Ia juga mewakili klien dalam arbitrase domestik dan internasional.",
-                    "Audy juga memiliki pengalaman yang prestisius di bidang kepailitan, terutama ketika ia ditunjuk dan diangkat oleh Pengadilan Niaga untuk bertindak sebagai Kurator yang Ditunjuk Pengadilan dalam proses kepailitan PT Prowell Energy Indonesia, salah satu perusahaan kontraktor minyak terbesar di Indonesia.",
-                    "Audy memiliki pengalaman dalam menangani kasus-kasus berprofil tinggi di bidang litigasi pidana khusus, seperti pencucian uang, korupsi, dan kejahatan kerah putih, saat ia bekerja sebagai pengacara di Kantor Hukum Elza Syarief, salah satu firma hukum litigasi terkemuka di Indonesia.",
-                    "Membawa keahlian dan pengalaman yang luas ke dalam perannya. Dengan fokus pada litigasi dan penyelesaian sengketa alternatif, Audy telah membuktikan dirinya sebagai advokat yang dapat diandalkan bagi klien dari berbagai latar belakang pribadi dan industri, mulai dari perusahaan nasional hingga korporasi multinasional."
+                    "Audy Rahmat adalah Advokat dengan pengalaman puluhan tahun dalam nasihat korporasi, penyelesaian sengketa, dan litigasi. Ia mengawasi urusan korporasi umum Firma serta praktik penyelesaian sengketa dan litigasi, dengan fokus pada sengketa komersial kompleks yang timbul dari perjanjian komersial bernilai tinggi dan transaksi bisnis.",
+                    "Ia telah bertindak di semua tingkat proses persidangan di pengadilan Indonesia, termasuk Pengadilan Negeri untuk perkara perdata dan pidana umum, Pengadilan Niaga untuk kepailitan, penundaan kewajiban pembayaran utang (PKPU), dan sengketa kekayaan intelektual, serta Pengadilan Hubungan Industrial untuk sengketa terkait ketenagakerjaan. Ia juga secara rutin memberikan nasihat dan mewakili klien selama proses pidana pada tahap penyidikan di hadapan aparat penegak hukum.",
+                    "Audy mewakili klien Indonesia dan internasional dalam berbagai perkara sengketa terkait bisnis, termasuk penagihan utang, klaim perbuatan melawan hukum, insolvensi dan restrukturisasi, sengketa maritim dan pelayaran, urusan asuransi, dan litigasi komersial lainnya. Selain proses pengadilan, ia memiliki pengalaman bertindak untuk klien dalam arbitrase domestik dan internasional serta penyelesaian sengketa alternatif.",
+                    "Ia memiliki pengalaman signifikan dalam urusan insolvensi, termasuk menjabat sebagai kurator yang ditunjuk pengadilan dalam proses kepailitan, yang mencerminkan keterlibatannya dalam kasus restrukturisasi dan insolvensi yang kompleks.",
+                    "Pada awal kariernya, Audy terlibat dalam perkara litigasi pidana khusus berprofil tinggi, termasuk kasus terkait pencucian uang, korupsi, dan kejahatan kerah putih, selama masa kerjanya di firma hukum litigasi terkemuka Indonesia.",
+                    "Dengan praktik yang berfokus pada litigasi dan penyelesaian sengketa alternatif, Audy membawa pengalaman ruang sidang dan penasihat yang luas kepada Firma dan diakui atas pendekatannya yang strategis dan terukur dalam mewakili klien di berbagai industri, dari perusahaan nasional hingga korporasi multinasional."
                 ],
                 "education": ["Universitas Hasanuddin, Sarjana Hukum (SH)"],
                 "membership": [
@@ -49,73 +79,97 @@
                 "name": "ANDELTON ANTONI, S.H.",
                 "title": "Partner",
                 "bio": [
-                    "Antoni adalah Pengacara dan Konsultan Hukum yang terpercaya dengan pengalaman praktis bertahun-tahun sebagai pengacara korporasi dan pengacara litigasi di beberapa firma hukum terkemuka dan perusahaan pertambangan dan energi terkemuka di Indonesia. Dengan motivasi diri yang tinggi untuk secara konsisten memberikan hasil terbaik dalam proyek-proyek dengan tenggat waktu yang ketat, ia telah membantu banyak perusahaan lokal dan asing dalam investasi, kegiatan korporasi, dan sengketa litigasi di pengadilan Indonesia dan arbitrase internasional.",
-                    "Antoni memiliki pengalaman menangani kasus-kasus berprofil tinggi dan penting dalam litigasi pidana khusus, seperti pencucian uang, korupsi, dan kejahatan kerah putih, saat ia bekerja sebagai pengacara di Kantor Hukum Elza Syarief, salah satu firma hukum litigasi terkemuka di Indonesia.",
-                    "Antoni telah berhasil terlibat, memberikan bantuan dan nasihat sebagai penasihat hukum atau pengacara dalam proyek-proyek prestisius dan proses litigasi, seperti:"
+                    "Andelton Antoni adalah advokat dan konsultan hukum Indonesia dengan pengalaman luas dalam nasihat korporasi dan litigasi. Ia telah berpraktik di beberapa firma hukum terkemuka dan juga pernah menjabat sebagai penasihat hukum internal di sektor pertambangan dan energi di Indonesia. Latar belakang profesionalnya menggabungkan nasihat transaksional, kepatuhan regulasi, dan penyelesaian sengketa, memungkinkannya memberikan nasihat kepada klien mengenai urusan yang melibatkan pertimbangan komersial dan operasional yang kompleks.",
+                    "Ia secara rutin membantu perusahaan domestik dan asing terkait kegiatan investasi, strukturisasi korporasi, transaksi komersial, dan penyelesaian sengketa di pengadilan Indonesia dan dalam proses arbitrase internasional. Praktiknya mencakup berbagai industri, dengan eksposur khusus pada sektor energi, pertambangan, dan infrastruktur.",
+                    "Antoni memiliki pengalaman menangani perkara pidana terkait bisnis yang signifikan, termasuk kasus yang melibatkan pencucian uang, korupsi, dan kejahatan kerah putih, yang diperoleh selama masa kerjanya di firma hukum litigasi terkemuka Indonesia. Ia memberikan nasihat dan mewakili klien dalam proses pidana yang timbul dari kegiatan korporasi dan permasalahan kepatuhan regulasi.",
+                    "Dalam pekerjaan korporasi dan terkait proyeknya, Antoni telah memberikan nasihat mengenai proyek kerjasama pemerintah dan badan usaha (KPBU), pengadaan infrastruktur, urusan ketenagakerjaan dan hukum ketenagakerjaan, pembebasan lahan dan kompensasi untuk operasi pertambangan, dan pengaturan kerjasama dengan entitas pemerintah. Pengalamannya mencakup nasihat mengenai kepatuhan regulasi dan pengaturan kontraktual dalam proyek yang melibatkan badan usaha milik negara dan pemerintah daerah.",
+                    "Pada sisi sengketa, Antoni telah mewakili klien korporasi dalam berbagai perkara litigasi, termasuk sengketa komersial, sengketa hubungan industrial, kepailitan dan penundaan kewajiban pembayaran utang (PKPU), dan sengketa pajak yang timbul dalam konteks proses insolvensi dan restrukturisasi.",
+                    "Dengan praktik yang mencakup nasihat korporasi dan litigasi, Antoni membawa pendekatan praktis dan terinformasi secara komersial terhadap pemecahan masalah hukum dan berpengalaman dalam membantu klien di seluruh siklus operasi bisnis dan sengketa."
                 ],
                 "education": ["Universitas Pelita Harapan, Sarjana Hukum (SH)"],
-                "projects": {
-                    "Hukum Korporasi": [
-                        "Proyek Kemitraan Pemerintah dan Swasta (KPS) untuk Pengadaan Infrastruktur Gas untuk Pembangkit Listrik Mobile 20 MW di Flores (Proyek PT PLN Gas & Geothermal)",
-                        "Memberikan nasihat hukum kepada Forum Sumber Daya Manusia mengenai masalah hukum ketenagakerjaan (Forum Internal PT Petrosea Tbk (Perusahaan Terbuka))",
-                        "Terlibat dalam membantu dan memberikan konsultasi terkait akuisisi lahan dan kompensasi lahan untuk kegiatan pertambangan emas perusahaan pertambangan emas Nusantara Resources (perusahaan Australia) - anak perusahaan Indika Energy, PT Masmindo Dwi Area.",
-                        "Berhasil menegosiasikan perjanjian kerja sama dengan Pemerintah Kabupaten Luwu untuk pembangunan jalan tambang dari pelabuhan ke lokasi Proyek Emas Awak Mas di Provinsi Sulawesi Selatan."
-                    ],
-                    "Sengketa Hukum": [
-                        "Mengelola berbagai sengketa hukum, mewakili PT SCG Readymix Indonesia dalam gugatan atas wanprestasi.",
-                        "Mewakili PT Petrosea Tbk dalam sengketa hubungan industrial.",
-                        "Mewakili PT Langgam Inti Hibrindo dalam proses kepailitan dan penangguhan pembayaran.",
-                        "Penanganan kasus perpajakan pasca kebangkrutan untuk mantan PT United Coal Indonesia selama proses kebangkrutan dan penundaan pembayaran (PKPU)."
-                    ]
-                },
                 "membership": ["Indonesian Advocates Association (PERADI)"],
                 "languages": ["Indonesia", "English"]
             }
         ]
     },
     "practices": {
-        "title": "Area Praktik & Sektor Bisnis",
+        "title": "Bidang Praktik",
         "subtitle": "Keahlian Hukum Komprehensif",
-        "description": "Firma kami memberikan solusi hukum strategis di berbagai bidang praktik dan sektor industri, memberdayakan klien untuk menavigasi lanskap regulasi yang kompleks dengan percaya diri.",
-        "areasTitle": "Area Praktik",
-        "areas": [
-            "Korporasi (Umum, Komersial, dan Transaksi)",
-            "Pailit, Kebangkrutan, dan Restrukturisasi",
-            "Investasi",
-            "Merger & Akuisisi",
-            "Proyek, Infrastruktur & Konstruksi",
-            "Perbankan & Keuangan",
-            "Pasar Modal",
-            "Hak Kekayaan Intelektual",
-            "Persaingan Usaha & Kepatuhan Antitrust",
-            "Pajak",
-            "Ketenagakerjaan & Hubungan Industrial",
-            "Arbitrase & Penyelesaian Sengketa Alternatif",
-            "Sengketa Perdata",
-            "Sengketa Pidana terkait kejahatan kerah putih",
-            "Pengawasan Yudisial"
-        ],
-        "sectorsTitle": "Sektor Bisnis",
-        "sectors": [
-            "Mining",
-            "Oil & Gas",
-            "Banking",
-            "Energy & Renewables",
-            "Land & Property",
-            "Food & Beverages",
-            "Shipping",
-            "FMCG",
-            "Insurance",
-            "Agriculture",
-            "Leisure & Hospitality",
-            "Technology",
-            "Forestry",
-            "Healthcare",
-            "Automotive",
-            "Media & Entertainment",
-            "Construction",
-            "Ritel"
-        ]
+        "headerText": "Kami fokus pada Bidang praktik berikut:",
+        "litigation": {
+            "title": "LITIGASI",
+            "areas": [
+                {
+                    "name": "Litigasi Perdata & Komersial",
+                    "description": "Firma mewakili klien korporasi dalam litigasi perdata dan komersial di pengadilan Indonesia, dalam sistem hukum perdata Indonesia. Ruang lingkup pekerjaan mencakup sengketa kontraktual, sengketa pemegang saham dan usaha patungan, klaim tata kelola korporasi, penagihan utang, dan klaim komersial lain yang timbul dari transaksi bisnis. Firma memberikan nasihat kepada klien dari penilaian pra-litigasi hingga proses persidangan di Pengadilan Negeri, Pengadilan Tinggi, dan Mahkamah Agung, termasuk pelaksanaan putusan."
+                },
+                {
+                    "name": "Kepailitan, Insolvensi & Restrukturisasi",
+                    "description": "Firma memberikan nasihat kepada debitor korporasi, kreditor, dan pemangku kepentingan keuangan dalam proses kepailitan dan insolvensi berdasarkan hukum insolvensi Indonesia, termasuk penundaan kewajiban pembayaran utang (PKPU). Layanan mencakup representasi di Pengadilan Niaga, nasihat restrukturisasi, negosiasi kreditor, dan sengketa yang timbul dari proses insolvensi dan restrukturisasi."
+                },
+                {
+                    "name": "Ketenagakerjaan & Hubungan Industrial",
+                    "description": "Firma memberikan nasihat kepada pemberi kerja korporasi mengenai urusan ketenagakerjaan dan hubungan industrial berdasarkan hukum ketenagakerjaan Indonesia. Layanan mencakup nasihat mengenai kontrak kerja, pemutusan hubungan kerja, restrukturisasi tenaga kerja, dan kepatuhan regulasi, serta representasi dalam sengketa ketenagakerjaan di Pengadilan Hubungan Industrial dan proses banding terkait."
+                },
+                {
+                    "name": "Arbitrase & Penyelesaian Sengketa Alternatif",
+                    "description": "Firma mewakili klien korporasi dalam arbitrase domestik dan internasional serta proses penyelesaian sengketa alternatif yang timbul dari sengketa komersial dan investasi. Firma secara rutin memberikan nasihat dalam arbitrase yang dilaksanakan berdasarkan peraturan Badan Arbitrase Nasional Indonesia (BANI) dan lembaga arbitrase internasional, termasuk Singapore International Arbitration Centre (SIAC). Layanan mencakup strategi arbitrase, penyusunan dan negosiasi perjanjian arbitrase, representasi dalam proses arbitrase, tindakan sementara, dan bantuan dalam pelaksanaan atau pembatalan putusan arbitrase di pengadilan Indonesia sesuai dengan hukum arbitrase Indonesia."
+                },
+                {
+                    "name": "Antimonopoli & Persaingan Usaha",
+                    "description": "Firma memberikan nasihat kepada klien korporasi mengenai hukum persaingan usaha dan urusan antimonopoli berdasarkan peraturan persaingan usaha Indonesia. Layanan mencakup nasihat kepatuhan, notifikasi dan penilaian merger, representasi dalam penyelidikan dan proses di Komisi Pengawas Persaingan Usaha (KPPU), dan litigasi terkait putusan hukum persaingan usaha."
+                },
+                {
+                    "name": "Litigasi Pidana",
+                    "description": "Firma mewakili klien korporasi, direktur, dan pejabat dalam perkara pidana terkait bisnis berdasarkan hukum Indonesia, termasuk kasus yang melibatkan penipuan, penggelapan, pengkhianatan kepercayaan, pelanggaran korporasi, dan tindak pidana terkait korupsi. Firma memberikan nasihat dan mewakili klien dalam proses yang ditangani oleh aparat penegak hukum, termasuk Komisi Pemberantasan Korupsi (KPK), kepolisian, dan jaksa penuntut umum. Layanan mencakup bantuan hukum pada tahap penyidikan, penuntutan, dan persidangan, serta nasihat strategis terkait manajemen risiko pidana, penyitaan aset, dan koordinasi dengan proses perdata, administratif, atau regulasi paralel, serta bantuan dalam urusan yang melibatkan pertanggungjawaban korporasi dan potensi eksposur direktur dan pejabat berdasarkan hukum pidana Indonesia."
+                },
+                {
+                    "name": "Sengketa Tata Usaha Negara",
+                    "description": "Firma mewakili klien korporasi dalam sengketa tata usaha negara yang timbul dari kegiatan bisnis dan tindakan regulasi oleh otoritas pemerintah. Layanan mencakup menggugat atau membela keputusan administratif, izin, dan sanksi di Pengadilan Tata Usaha Negara, serta proses banding."
+                },
+                {
+                    "name": "Perpajakan",
+                    "description": "Firma memberikan nasihat kepada wajib pajak korporasi mengenai sengketa pajak dan litigasi berdasarkan hukum pajak Indonesia. Layanan mencakup representasi dalam pemeriksaan pajak, keberatan, banding, dan proses di Pengadilan Pajak, serta nasihat mengenai manajemen dan strategi penyelesaian sengketa pajak."
+                },
+                {
+                    "name": "Peninjauan Kembali Yudisial",
+                    "description": "Firma memberikan nasihat kepada klien korporasi dan pribadi mengenai proses peninjauan kembali terkait undang-undang, peraturan, dan tindakan administratif yang mempengaruhi kegiatan bisnis atau hak konstitusional. Layanan mencakup analisis hukum, persiapan permohonan, dan representasi dalam proses peninjauan kembali di Mahkamah Agung dan otoritas yudisial kompeten lainnya."
+                }
+            ]
+        },
+        "corporate": {
+            "title": "KORPORASI",
+            "areas": [
+                {
+                    "name": "Merger & Akuisisi",
+                    "description": "Firma memberikan nasihat mengenai merger, akuisisi, divestasi, usaha patungan, dan reorganisasi korporasi yang melibatkan perusahaan swasta dan publik. Ruang lingkup pekerjaan mencakup uji tuntas hukum, strukturisasi transaksi, negosiasi dan penyusunan perjanjian jual beli saham, perjanjian pengalihan aset, perjanjian pemegang saham, dan dokumen transaksi terkait, serta bantuan dalam persetujuan regulasi dan urusan pasca-penyelesaian."
+                },
+                {
+                    "name": "Investasi",
+                    "description": "Firma memberikan nasihat hukum mengenai investasi domestik dan asing di Indonesia, termasuk masuk pasar, pembentukan struktur investasi, kepatuhan terhadap peraturan investasi, dan urusan tata kelola korporasi berkelanjutan. Firma membantu investor dalam menyusun struktur investasi, menegosiasikan pengaturan investasi dan pemegang saham, serta berkoordinasi dengan otoritas regulasi terkait."
+                },
+                {
+                    "name": "Korporasi dan Komersial",
+                    "description": "Firma memberikan nasihat mengenai berbagai urusan korporasi dan komersial, termasuk pendirian perusahaan, tata kelola korporasi, kepatuhan regulasi, dan nasihat korporasi umum. Layanan mencakup penyusunan, penelaahan, dan negosiasi perjanjian komersial, serta nasihat mengenai manajemen risiko kontraktual dan operasi bisnis."
+                },
+                {
+                    "name": "Proyek, Infrastruktur & Konstruksi",
+                    "description": "Firma memberikan nasihat kepada sponsor, pengembang, kontraktor, dan pemangku kepentingan lain mengenai proyek dan pengembangan infrastruktur, termasuk proyek kerjasama pemerintah dan badan usaha (KPBU) yang melibatkan pemerintah dan badan usaha milik negara. Layanan penasihat mencakup strukturisasi proyek dan KPBU, proses pengadaan dan tender, penyusunan dan negosiasi kontrak proyek, konstruksi, dan rekayasa (termasuk EPC dan perjanjian terkait), kepatuhan terhadap regulasi sektor khusus dan pengadaan publik, serta nasihat terkait sengketa yang timbul dari pengembangan dan pelaksanaan proyek."
+                },
+                {
+                    "name": "Perbankan & Keuangan",
+                    "description": "Firma bertindak untuk pemberi pinjaman, peminjam, dan lembaga keuangan dalam transaksi perbankan dan keuangan. Ruang lingkup pekerjaan mencakup nasihat mengenai struktur pinjaman dan pembiayaan, pengaturan jaminan dan agunan, dokumentasi pembiayaan, kepatuhan regulasi, dan restrukturisasi pengaturan pembiayaan yang ada, termasuk transaksi dengan elemen lintas batas."
+                },
+                {
+                    "name": "Pasar Modal",
+                    "description": "Firma memberikan nasihat kepada emiten, penjamin emisi, dan pelaku pasar lain mengenai transaksi pasar modal. Layanan mencakup penawaran ekuitas dan utang, penawaran umum dan penempatan terbatas, kepatuhan terhadap undang-undang dan peraturan pasar modal, kewajiban pengungkapan berkelanjutan, dan urusan regulasi yang melibatkan otoritas pasar modal."
+                },
+                {
+                    "name": "Kekayaan Intelektual",
+                    "description": "Firma memberikan nasihat mengenai perlindungan, pendaftaran, pengelolaan, dan penegakan hak kekayaan intelektual. Layanan mencakup merek dagang, hak cipta, paten, pengaturan lisensi dan alih teknologi, serta nasihat dan urusan sengketa terkait aset kekayaan intelektual."
+                }
+            ]
+        }
     },
     "contact": {
         "title": "Hubungi Kami",

@@ -3,7 +3,7 @@
         "home": "Home",
         "about": "Firm",
         "partners": "People",
-        "practices": "Practice Areas & Business Sectors",
+        "practices": "Practice Areas",
         "contact": "Contact"
     },
     "home": {
@@ -14,8 +14,37 @@
         "title": "About Our Firm",
         "subtitle": "A Trusted Indonesian Law Firm",
         "sectionLabel": "Firm Identity",
-        "description1": "AUDY & ANTONI Counsellors at Law stands as an autonomous Indonesian Law Firm specializing in a myriad of commercial, business-related affairs and litigation. Our realm is defined by intricate business transactions and formidable disputes. Within our firm, the lawyers are adept at navigating the complexities, seamlessly operating in a global environment. We bring forth a wealth of experience, attuned to the pulse of clients demands.",
-        "description2": "Our lawyers, with their complementary expertise, empower us to deliver a comprehensive legal service, encompassing corporate, securities, and dispute resolution practices. Clients can expect a thorough and integrated solution, as we seamlessly integrate our diverse skills to meet their multifaceted needs."
+        "firmName": "AUDY & ANTONI Counsellors at Law",
+        "firmNameShort": "AUDY & ANTONI",
+        "paragraphs": [
+            {
+                "text": " (\"AUDY & ANTONI\") stands as an autonomous Indonesian Law Firm specializing in a myriad of commercial, business-related affairs, dispute resolution and litigation. Established with a commitment to legal excellence, strategic clarity, and uncompromising integrity, the Firm has positioned itself as a trusted legal partner for corporations, business leaders, and clients navigating legal issues and regulatory landscape.",
+                "hasFirmName": true
+            },
+            {
+                "text": "Our practice is firmly rooted in the realities of modern commerce. We regularly advise on multifaceted transactions and contentious matters that demand not only technical legal mastery, but also a deep understanding of business dynamics, risk management, and cross-border considerations. Whether acting as strategic counsel in transactional settings or as steadfast advocates in litigation and arbitration, we approach every mandate with rigor, precision, and foresight.",
+                "hasFirmName": false
+            },
+            {
+                "text": "The Firm's lawyers are seasoned practitioners with complementary areas of expertise, enabling us to provide integrated and end-to-end legal solutions. Our core practices encompass corporate and commercial law, as well as dispute resolution, including complex litigation and alternative dispute mechanisms. This multidisciplinary strength allows us to address clients' legal needs holistically, ensuring consistency of strategy across advisory and contentious matters.",
+                "hasFirmName": false
+            },
+            {
+                "text": "Operating comfortably within both domestic and international contexts, our lawyers are accustomed to engaging with cross-border transactions, foreign counterparties, and multinational stakeholders. We combine a strong command of Indonesian law with a global outlook, enabling us to bridge legal, cultural, and commercial differences with confidence and effectiveness.",
+                "hasFirmName": false
+            },
+            {
+                "text": "At AUDY & ANTONI, legal advice is rendered with a focus on responsiveness, practical utility, and alignment with the client's objectives. Each engagement is approached through a careful evaluation of the client's legal position and commercial environment, with advice formulated to be legally sound, commercially informed, and capable of practical execution.",
+                "hasFirmName": false,
+                "hasFirmNameInText": true
+            },
+            {
+                "text": "Guided by professionalism, discretion, and a steadfast dedication to our clients' interests, we strive to build enduring relationships founded on trust and results. Our commitment is to serve as more than legal advisers—we aim to be strategic partners, standing alongside our clients as they confront challenges, seize opportunities, and advance their business objectives with confidence.",
+                "hasFirmName": false
+            }
+        ],
+        "tagline": "Excellence in every case.",
+        "taglineSubtext": "Our commitment to you"
     },
     "partners": {
         "title": "Our People",
@@ -28,14 +57,15 @@
         "list": [
             {
                 "id": "audy-rahmat",
-                "name": "AUDY RAHMAT, S.H.",
+                "name": "AUDY RAHMAT",
                 "title": "Partner",
                 "bio": [
-                    "Audy Rahmat is a Lawyer with decades of experience. He oversees general corporate, the dispute resolution and litigation practice of the firm. His practice focuses on commercial cases typically arising from high-value commercial agreements and transactions",
-                    "Audy has acted at all levels of trial in Indonesian courts including District Courts (for general disputes and criminal litigation), Commercial Courts (for bankruptcy and suspension of payments, Intellectual Property), and Industrial Relations Courts (for employment disputes), defending clients due to criminal proceeding in Police Authority. Representing Indonesian and international clients in cases relating to debt recovery, torts, insolvency, maritime and shipping, insurance, and other business-related contentious matters. He also acted for clients in domestic and international arbitration.",
-                    "Audy also has prestigious experience in the field of insolvency, notably when he was entrusted and appointed by the Commercial Court to serve as the Court-appointed Receiver in the bankruptcy proceedings of PT Prowell Energy Indonesia, one of the largest oil contracting companies in Indonesia.",
-                    "Audy has experiences with high profile cases in special criminal litigation such as money laundering, corruption, and white collar crime when he was lawyer at Elza Syarief Law Office on of the top litigation law firm in Indonesia.",
-                    "Bringing a wealth of expertise and experience to his role. With a focus litigation and alternative dispute resolution, Audy has established himself as a trusted advocate for clients across a wide range of personal and industries, from national to multinational corporations."
+                    "Audy Rahmat is a Lawyer with decades of experience in corporate advisory, dispute resolution, and litigation. He oversees the Firm's general corporate matters as well as its dispute resolution and litigation practice, with a focus on complex commercial disputes arising from high-value commercial agreements and business transactions.",
+                    "He has acted at all levels of proceedings before Indonesian courts, including the District Courts for general civil and criminal matters, the Commercial Courts for bankruptcy, suspension of debt payment obligations (PKPU), and intellectual property disputes, as well as the Industrial Relations Courts for employment-related disputes. He also regularly advises and represents clients during criminal proceedings at the investigation stage before law enforcement authorities.",
+                    "Audy represents Indonesian and international clients in a broad range of business-related contentious matters, including debt recovery, tort claims, insolvency and restructuring, maritime and shipping disputes, insurance matters, and other commercial litigation. In addition to court proceedings, he has experience acting for clients in domestic and international arbitration and alternative dispute resolution.",
+                    "He has significant experience in insolvency matters, including serving as a court-appointed receiver in bankruptcy proceedings, reflecting his involvement in complex restructuring and insolvency cases.",
+                    "Earlier in his career, Audy was involved in high-profile special criminal litigation matters, including cases relating to money laundering, corruption, and white-collar crime, during his tenure at a leading Indonesian litigation law firm.",
+                    "With a practice focused on litigation and alternative dispute resolution, Audy brings extensive courtroom and advisory experience to the Firm and is recognised for his strategic and measured approach in representing clients across various industries, from national enterprises to multinational corporations."
                 ],
                 "education": ["Hasanuddin University, Bachelor of Law (SH)"],
                 "membership": [
@@ -46,78 +76,102 @@
             },
             {
                 "id": "andelton-antoni",
-                "name": "ANDELTON ANTONI, S.H.",
+                "name": "ANDELTON ANTONI",
                 "title": "Partner",
                 "bio": [
-                    "Antoni is a Trustworthy Lawyer and Legal Consultant with having many years of practical experience as a corporate lawyer and litigation lawyer on several top tier law firm and leading mining and energy company in Indonesia. Self motivated to consistently provide first-class results in projects with stringent deadlines, he has been assisting numerous local and foreign companies in their investment, corporate activities and litigation disputes in Indonesian court and international arbitration.",
-                    "Antoni has experience handling high-profile and important cases in special criminal litigation such as money laundering, corruption and white collar crime when he was a lawyer at Elza Syarief Law Office, one of the top litigation law firms in Indonesia.",
-                    "Antoni has been successfully involved, assisting and advising as legal counsel or attorney on prestigious projects and litigation process such as :"
+                    "Andelton Antoni is an Indonesian lawyer and legal consultant with extensive experience in corporate advisory and litigation. He has practised at several leading law firms and has also served as in-house legal counsel within the mining and energy sector in Indonesia. His professional background combines transactional advisory, regulatory compliance, and dispute resolution, enabling him to advise clients on matters that involve complex commercial and operational considerations.",
+                    "He regularly assists domestic and foreign companies in relation to investment activities, corporate structuring, commercial transactions, and dispute resolution before Indonesian courts and in international arbitration proceedings. His practice spans a range of industries, with particular exposure to the energy, mining, and infrastructure sectors.",
+                    "Antoni has experience handling significant business-related criminal matters, including cases involving money laundering, corruption, and white-collar crime, gained during his tenure at a leading Indonesian litigation law firm. He advises and represents clients in criminal proceedings arising from corporate activities and regulatory compliance issues.",
+                    "In his corporate and project-related work, Antoni has advised on public private partnership (PPP) projects, infrastructure procurement, employment and labour law matters, land acquisition and compensation for mining operations, and cooperation arrangements with government entities. His experience includes advising on regulatory compliance and contractual arrangements in projects involving state-owned enterprises and regional governments.",
+                    "On the contentious side, Antoni has represented corporate clients in a broad range of litigation matters, including commercial disputes, industrial relations disputes, bankruptcy and suspension of debt payment obligations (PKPU), and tax disputes arising in the context of insolvency and restructuring proceedings.",
+                    "With a practice encompassing both corporate advisory and litigation, Antoni brings a practical and commercially informed approach to legal problem-solving and is experienced in assisting clients across the full lifecycle of business operations and disputes."
                 ],
                 "education": [
                     "Pelita Harapan University, Bachelor of Law (SH)"
                 ],
-                "projects": {
-                    "Legal Corporate": [
-                        "Public Private Partnership (PPP) Project for the Procurement of Gas Infrastructure for 20 MW Mobile Power Plant Flores (Project of PT PLN Gas & Geothermal)",
-                        "Providing legal counsel to the Human Resources Forum regarding labor law matters (Internal Forum for PT Petrosea Tbk (Public company)",
-                        "Involved in assisting and counsel land acquisition and land compensation for mining activities of gold mining companies Nusantara Resources (Australia company) - Indika Energy subsidiary PT Masmindo Dwi Area.",
-                        "Successfully negotiated a cooperation contract with the Luwu Regency Government, for the construction of a mining road from the port to the Awak Mas Gold Project location in South Sulawesi Province."
-                    ],
-                    "Litigation": [
-                        "Managing diverse litigation, representing PT SCG Readymix Indonesia in Default Claim.",
-                        "Representing PT Petrosea Tbk in an Industrial Relation disputes",
-                        "Representing PT Langgam Inti Hibrindo in Bankruptcy and suspension of payments.",
-                        "handling a Tax case post-bankruptcy for ex-PT United Coal Indonesia during Bankruptcy and Suspension of Payment (PKPU)."
-                    ]
-                },
                 "membership": ["Indonesian Advocates Association (PERADI)"],
                 "languages": ["Indonesia", "English"]
             }
         ]
     },
     "practices": {
-        "title": "Practice Areas & Business Sectors",
+        "title": "Practice Areas",
         "subtitle": "Comprehensive Legal Expertise",
-        "description": "Our firm delivers strategic legal solutions across a broad spectrum of practice areas and industry sectors, empowering clients to navigate complex regulatory landscapes with confidence.",
-        "areasTitle": "Practice Areas",
-        "areas": [
-            "Corporate (General, Commercial and Transaction)",
-            "Bankruptcy, Insolvency & Restructuring",
-            "Investment",
-            "Merger & Acquisition",
-            "Project, Infrastructure & Construction",
-            "Banking & Finance",
-            "Capital Markets",
-            "Intellectual Property",
-            "Business Competition & Antitrust Compliance",
-            "Tax",
-            "Employment & Industrial Relation",
-            "Arbitration & Alternative Dispute Resolution",
-            "Comercial Litigation",
-            "Criminal Litigation related white collar crime",
-            "Judicial Review"
-        ],
-        "sectorsTitle": "Business Sectors",
-        "sectors": [
-            "Mining",
-            "Oil & Gas",
-            "Banking",
-            "Energy & Renewables",
-            "Land & Property",
-            "Food & Beverages",
-            "Shipping",
-            "FMCG",
-            "Insurance",
-            "Agriculture",
-            "Leisure & Hospitality",
-            "Technology",
-            "Forestry",
-            "Healthcare",
-            "Automotive",
-            "Media & Entertainment",
-            "Construction",
-            "Retail"
-        ]
+        "headerText": "We focus on the following practice areas:",
+        "litigation": {
+            "title": "LITIGATION",
+            "areas": [
+                {
+                    "name": "Civil & Commercial Litigation",
+                    "description": "The Firm represents corporate clients in civil and commercial litigation before Indonesian courts, within Indonesia's civil law system. The scope of work includes contractual disputes, shareholder and joint venture disputes, corporate governance claims, debt recovery, and other commercial claims arising from business transactions. The Firm advises clients from pre-litigation assessment through proceedings at the District Courts, High Courts, and the Supreme Court, including enforcement of judgments."
+                },
+                {
+                    "name": "Bankruptcy, Insolvency & Restructuring",
+                    "description": "The Firm advises corporate debtors, creditors, and financial stakeholders in bankruptcy and insolvency proceedings under Indonesian insolvency law, including suspension of debt payment obligations (PKPU). Services include representation before the Commercial Court, restructuring advisory, creditor negotiations, and disputes arising from insolvency and restructuring processes."
+                },
+                {
+                    "name": "Employment & Industrial Relation",
+                    "description": "The Firm advises corporate employers on employment and industrial relations matters under Indonesian labour law. Services include advisory on employment contracts, termination of employment, workforce restructuring, and regulatory compliance, as well as representation in employment disputes before the Industrial Relations Court and related appellate proceedings."
+                },
+                {
+                    "name": "Arbitration & Alternative Dispute Resolution",
+                    "description": "The Firm represents corporate clients in domestic and international arbitration and alternative dispute resolution proceedings arising from commercial and investment disputes. The Firm regularly advises in arbitrations conducted under the rules of the Indonesian National Board of Arbitration (BANI) and international arbitration institutions, including the Singapore International Arbitration Centre (SIAC). Services include arbitration strategy, drafting and negotiation of arbitration agreements, representation in arbitral proceedings, interim measures, and assistance in enforcement or annulment of arbitral awards before Indonesian courts in accordance with Indonesian arbitration law."
+                },
+                {
+                    "name": "Antitrust & Competition",
+                    "description": "The Firm advises corporate clients on competition law and antitrust matters under Indonesian competition regulations. Services include compliance advisory, merger notification and assessment, representation in investigations and proceedings before the Indonesian Competition Commission (KPPU), and litigation relating to competition law decisions."
+                },
+                {
+                    "name": "Criminal Litigation",
+                    "description": "The Firm represents corporate clients, directors, and officers in business-related criminal matters under Indonesian law, including cases involving fraud, embezzlement, breach of trust, corporate misconduct, and corruption-related offences. The Firm advises and represents clients in proceedings handled by law enforcement authorities, including the Corruption Eradication Commission (Komisi Pemberantasan Korupsi – KPK), the police, and public prosecutors. Services include legal assistance at the investigation, prosecution, and trial stages, as well as strategic advisory in relation to criminal risk management, asset seizure, and coordination with parallel civil, administrative, or regulatory proceedings and assistance in matters involving corporate liability and the potential exposure of directors and officers under Indonesian criminal law."
+                },
+                {
+                    "name": "State Administrative Disputes",
+                    "description": "The Firm represents corporate clients in state administrative disputes arising from business activities and regulatory actions by government authorities. Services include challenging or defending administrative decisions, permits, and sanctions before the State Administrative Courts (Pengadilan Tata Usaha Negara), as well as appellate proceedings."
+                },
+                {
+                    "name": "Tax",
+                    "description": "The Firm advises corporate taxpayers on tax disputes and litigation under Indonesian tax law. Services include representation in tax audits, objections, appeals, and proceedings before the Tax Court, as well as advisory on tax dispute management and resolution strategies."
+                },
+                {
+                    "name": "Judicial Review",
+                    "description": "The Firm advises corporate & private clients on judicial review proceedings relating to laws, regulations, and administrative measures affecting business activities or constitutional rights. Services include legal analysis, preparation of submissions, and representation in judicial review proceedings before the Supreme Court and other competent judicial authorities."
+                }
+            ]
+        },
+        "corporate": {
+            "title": "CORPORATE",
+            "areas": [
+                {
+                    "name": "Merger & Acquisition",
+                    "description": "The Firm advises on mergers, acquisitions, divestments, joint ventures, and corporate reorganisations involving private and public companies. The scope of work includes legal due diligence, transaction structuring, negotiation and drafting of share purchase agreements, asset transfer agreements, shareholders' agreements, and related transaction documents, as well as assistance with regulatory approvals and post-completion matters."
+                },
+                {
+                    "name": "Investment",
+                    "description": "The Firm provides legal advice on domestic and foreign investment in Indonesia, including market entry, establishment of investment structures, compliance with investment regulations, and ongoing corporate governance matters. The Firm assists investors in structuring investments, negotiating investment and shareholders' arrangements, and liaising with relevant regulatory authorities."
+                },
+                {
+                    "name": "Corporate and Commercial",
+                    "description": "The Firm advises on a broad range of corporate and commercial matters, including company formation, corporate governance, regulatory compliance, and general corporate advisory. Services include drafting, reviewing, and negotiating commercial agreements, as well as advising on contractual risk management and business operations."
+                },
+                {
+                    "name": "Project, Infrastructure & Construction",
+                    "description": "The Firm advises sponsors, developers, contractors, and other stakeholders on projects and infrastructure developments, including public private partnership (PPP) projects involving government and state-owned entities. Advisory services include project and PPP structuring, procurement and tender processes, drafting and negotiation of project, construction, and engineering contracts (including EPC and related agreements), compliance with sector-specific and public procurement regulations, and dispute-related advisory arising from project development and execution."
+                },
+                {
+                    "name": "Banking & Finance",
+                    "description": "The Firm acts for lenders, borrowers, and financial institutions in banking and finance transactions. The scope of work includes advising on loan and financing structures, security and collateral arrangements, financing documentation, regulatory compliance, and restructuring of existing financing arrangements, including transactions with cross-border elements."
+                },
+                {
+                    "name": "Capital Markets",
+                    "description": "The Firm advises issuers, underwriters, and other market participants on capital markets transactions. Services include equity and debt offerings, public offerings and private placements, compliance with securities laws and regulations, ongoing disclosure obligations, and regulatory matters involving capital market authorities."
+                },
+                {
+                    "name": "Intellectual Property",
+                    "description": "The Firm advises on the protection, registration, management, and enforcement of intellectual property rights. Services cover trademarks, copyrights, patents, licensing and technology transfer arrangements, as well as advisory and dispute-related matters concerning intellectual property assets."
+                }
+            ]
+        }
     },
     "contact": {
         "title": "Contact Us",

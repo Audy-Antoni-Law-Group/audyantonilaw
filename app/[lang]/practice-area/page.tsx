@@ -1,12 +1,9 @@
 import { getDictionary } from "../../get-dictionary";
 import Image from "next/image";
 import batikBg from "../../assets/images/batik4.jpg";
+import garudaImg from "../../assets/images/garuda.png";
 import BatikFooter from "../../components/BatikFooter";
-import FadeIn, {
-    FadeInHero,
-    FadeInStagger,
-    FadeInStaggerItem,
-} from "../../components/FadeIn";
+import FadeIn, { FadeInHero } from "../../components/FadeIn";
 
 export default async function PracticeArea({
     params,
@@ -55,130 +52,105 @@ export default async function PracticeArea({
             </section>
 
             {/* Content Section */}
-            <section className="bg-white">
-                <div className="container mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
-                    {/* Description */}
+            <section
+                className="relative bg-white"
+                style={{ clipPath: "inset(0)" }}
+            >
+                <div
+                    className="fixed inset-0 pointer-events-none flex items-center justify-center z-0"
+                    aria-hidden="true"
+                >
+                    <div className="w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] md:w-[550px] md:h-[550px] lg:w-[700px] lg:h-[700px] xl:w-[900px] xl:h-[900px] opacity-[0.05] md:opacity-[0.06]">
+                        <Image
+                            src={garudaImg}
+                            alt=""
+                            fill
+                            className="object-contain"
+                        />
+                    </div>
+                </div>
+
+                <div className="container relative z-10 mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
+                    {/* Header Text */}
                     <FadeIn>
-                        <div className="mb-20 max-w-3xl md:mb-28">
-                            <p className="text-xl font-light leading-relaxed text-gray-600 md:text-2xl">
-                                {dict.practices.description}
-                            </p>
+                        <div className="mb-16 md:mb-24">
+                            <h2 className="font-serif text-3xl font-light leading-relaxed text-gray-900 md:text-4xl lg:text-5xl">
+                                {dict.practices.headerText}
+                            </h2>
+                            <div className="mt-6 h-px w-32 bg-gray-900" />
                         </div>
                     </FadeIn>
 
-                    {/* Practice Areas */}
-                    <div className="mb-20 md:mb-28">
-                        <FadeIn direction="left" distance={40}>
-                            <div className="mb-12 flex items-center gap-6">
-                                <h2 className="font-serif text-3xl font-light tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
-                                    {dict.practices.areasTitle}
-                                </h2>
-                                <div className="hidden h-px flex-1 bg-gray-200 sm:block" />
+                    {/* Two Column Layout */}
+                    <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
+                        {/* Litigation Column */}
+                        <FadeIn delay={0.1} direction="up" distance={40}>
+                            <div>
+                                {/* Column Title */}
+                                <div className="mb-10 border-b-2 border-gray-900 pb-4">
+                                    <h3 className="text-sm font-bold uppercase tracking-[0.25em] text-gray-900">
+                                        {dict.practices.litigation.title}
+                                    </h3>
+                                </div>
+
+                                {/* Practice Areas List */}
+                                <div className="space-y-10">
+                                    {dict.practices.litigation.areas.map(
+                                        (area, index) => (
+                                            <div key={index} className="group">
+                                                <h4 className="mb-3 text-lg font-semibold text-gray-900 md:text-xl">
+                                                    {area.name}
+                                                </h4>
+                                                <p className="text-base leading-relaxed text-gray-600 font-light">
+                                                    {area.description}
+                                                </p>
+                                                {index <
+                                                    dict.practices.litigation
+                                                        .areas.length -
+                                                        1 && (
+                                                    <div className="mt-10 h-px w-full bg-gray-200" />
+                                                )}
+                                            </div>
+                                        ),
+                                    )}
+                                </div>
                             </div>
                         </FadeIn>
 
-                        <FadeInStagger
-                            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-                            staggerDelay={0.08}
-                        >
-                            {dict.practices.areas.map((area, index) => (
-                                <FadeInStaggerItem key={index}>
-                                    <div className="group relative overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm transition-all hover:border-gray-200 hover:shadow-lg">
-                                        {/* Placeholder Image */}
-                                        <div className="relative aspect-[16/10] w-full overflow-hidden bg-gray-100">
-                                            <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    fill="none"
-                                                    viewBox="0 0 24 24"
-                                                    strokeWidth={1}
-                                                    stroke="currentColor"
-                                                    className="h-12 w-12 text-gray-300"
-                                                >
-                                                    <path
-                                                        strokeLinecap="round"
-                                                        strokeLinejoin="round"
-                                                        d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
-                                                    />
-                                                </svg>
-                                            </div>
-                                            {/* Overlay on hover */}
-                                            <div className="absolute inset-0 bg-gray-900/0 transition-colors group-hover:bg-gray-900/10" />
-                                        </div>
-
-                                        {/* Content */}
-                                        <div className="p-6">
-                                            <div className="mb-2 flex items-center gap-3">
-                                                <span className="font-mono text-xs font-medium text-gray-400">
-                                                    {String(index + 1).padStart(
-                                                        2,
-                                                        "0",
-                                                    )}
-                                                </span>
-                                            </div>
-                                            <h3 className="text-lg font-medium leading-snug text-gray-900 transition-colors group-hover:text-gray-700">
-                                                {area}
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </FadeInStaggerItem>
-                            ))}
-                        </FadeInStagger>
-                    </div>
-                </div>
-            </section>
-
-            {/* Business Sectors */}
-            <section className="border-t border-gray-100 bg-gray-50">
-                <div className="container mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
-                    <FadeIn direction="left" distance={40}>
-                        <div className="mb-12 flex items-center gap-6">
-                            <h2 className="font-serif text-3xl font-light tracking-tight text-gray-900 md:text-4xl lg:text-5xl">
-                                {dict.practices.sectorsTitle}
-                            </h2>
-                            <div className="hidden h-px flex-1 bg-gray-300 sm:block" />
-                        </div>
-                    </FadeIn>
-
-                    <FadeInStagger
-                        className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-                        staggerDelay={0.06}
-                    >
-                        {dict.practices.sectors.map((sector, index) => (
-                            <FadeInStaggerItem key={index}>
-                                <div className="group overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all hover:border-gray-300 hover:shadow-md">
-                                    {/* Placeholder Image */}
-                                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-gray-100">
-                                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-200">
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                fill="none"
-                                                viewBox="0 0 24 24"
-                                                strokeWidth={1}
-                                                stroke="currentColor"
-                                                className="h-10 w-10 text-gray-300"
-                                            >
-                                                <path
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                    d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
-                                                />
-                                            </svg>
-                                        </div>
-                                        {/* Overlay on hover */}
-                                        <div className="absolute inset-0 bg-gray-900/0 transition-colors group-hover:bg-gray-900/5" />
-                                    </div>
-
-                                    {/* Content */}
-                                    <div className="p-4">
-                                        <span className="text-sm font-medium text-gray-700 md:text-base">
-                                            {sector}
-                                        </span>
-                                    </div>
+                        {/* Corporate Column */}
+                        <FadeIn delay={0.2} direction="up" distance={40}>
+                            <div>
+                                {/* Column Title */}
+                                <div className="mb-10 border-b-2 border-gray-900 pb-4">
+                                    <h3 className="text-sm font-bold uppercase tracking-[0.25em] text-gray-900">
+                                        {dict.practices.corporate.title}
+                                    </h3>
                                 </div>
-                            </FadeInStaggerItem>
-                        ))}
-                    </FadeInStagger>
+
+                                {/* Practice Areas List */}
+                                <div className="space-y-10">
+                                    {dict.practices.corporate.areas.map(
+                                        (area, index) => (
+                                            <div key={index} className="group">
+                                                <h4 className="mb-3 text-lg font-semibold text-gray-900 md:text-xl">
+                                                    {area.name}
+                                                </h4>
+                                                <p className="text-base leading-relaxed text-gray-600 font-light">
+                                                    {area.description}
+                                                </p>
+                                                {index <
+                                                    dict.practices.corporate
+                                                        .areas.length -
+                                                        1 && (
+                                                    <div className="mt-10 h-px w-full bg-gray-200" />
+                                                )}
+                                            </div>
+                                        ),
+                                    )}
+                                </div>
+                            </div>
+                        </FadeIn>
+                    </div>
                 </div>
             </section>
 

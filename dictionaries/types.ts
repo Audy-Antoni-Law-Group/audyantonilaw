@@ -6,9 +6,6 @@ export type Partner = {
     education?: string[];
     membership?: string[];
     languages?: string[];
-    projects?: {
-        [category: string]: string[];
-    };
 };
 
 export type Dictionary = {
@@ -27,8 +24,15 @@ export type Dictionary = {
         title: string;
         subtitle: string;
         sectionLabel: string;
-        description1: string;
-        description2: string;
+        firmName: string;
+        firmNameShort: string;
+        paragraphs: {
+            text: string;
+            hasFirmName: boolean;
+            hasFirmNameInText?: boolean;
+        }[];
+        tagline: string;
+        taglineSubtext: string;
     };
     partners: {
         title: string;
@@ -43,11 +47,21 @@ export type Dictionary = {
     practices: {
         title: string;
         subtitle: string;
-        description: string;
-        areasTitle: string;
-        areas: string[];
-        sectorsTitle: string;
-        sectors: string[];
+        headerText: string;
+        litigation: {
+            title: string;
+            areas: {
+                name: string;
+                description: string;
+            }[];
+        };
+        corporate: {
+            title: string;
+            areas: {
+                name: string;
+                description: string;
+            }[];
+        };
     };
     contact: {
         title: string;

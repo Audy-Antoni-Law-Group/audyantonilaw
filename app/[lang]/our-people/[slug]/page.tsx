@@ -3,9 +3,10 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 import batikBg from "../../../assets/images/batik3.png";
+import garudaImg from "../../../assets/images/garuda.png";
 import andeltonImg from "../../../assets/images/our-people/andelton-antoni.jpeg";
 import BatikFooter from "../../../components/BatikFooter";
-import FadeIn, { FadeInHero } from "../../../components/FadeIn";
+import { FadeInHero } from "../../../components/FadeIn";
 
 const partnerImages: Record<string, StaticImageData> = {
     "andelton-antoni": andeltonImg,
@@ -67,8 +68,22 @@ export default async function PartnerDetail({
             </div>
 
             {/* Main Content */}
-            <section className="container mx-auto max-w-7xl px-6 py-12 md:px-12 md:py-16">
-                <div className="grid gap-12 lg:grid-cols-12 lg:gap-20">
+            <section className="relative container mx-auto max-w-7xl px-6 py-12 md:px-12 md:py-16">
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <div className="fixed inset-0 flex items-center justify-center">
+                        <div className="w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] opacity-[0.05] md:opacity-[0.06]">
+                            <Image
+                                src={garudaImg}
+                                alt=""
+                                fill
+                                className="object-contain"
+                                aria-hidden="true"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="relative grid gap-12 lg:grid-cols-12 lg:gap-20">
                     {/* Image Column */}
                     <div className="lg:col-span-4">
                         <div className="sticky top-28">
@@ -215,60 +230,24 @@ export default async function PartnerDetail({
                     </div>
 
                     {/* Content Column */}
-                    <div className="lg:col-span-8">
+                    <div className="relative lg:col-span-8">
                         {/* Bio */}
-                        <div className="mb-12">
-                            <div className="space-y-5">
-                                {partner.bio.map(
-                                    (paragraph: string, index: number) => (
-                                        <FadeIn key={index} delay={index * 0.1}>
-                                            <p className="text-base leading-relaxed text-gray-700 md:text-lg">
+                        <FadeInHero delay={0.6}>
+                            <div className="relative mb-12">
+                                <div className="space-y-6">
+                                    {partner.bio.map(
+                                        (paragraph: string, index: number) => (
+                                            <p
+                                                key={index}
+                                                className="text-base leading-relaxed text-gray-700 md:text-lg"
+                                            >
                                                 {paragraph}
                                             </p>
-                                        </FadeIn>
-                                    ),
-                                )}
-                            </div>
-                        </div>
-
-                        {/* Projects */}
-                        {partner.projects && (
-                            <FadeIn>
-                                <div className="border-t border-gray-100 pt-12">
-                                    {Object.entries(partner.projects).map(
-                                        ([category, items], catIndex) => (
-                                            <FadeIn
-                                                key={category}
-                                                delay={catIndex * 0.15}
-                                            >
-                                                <div className="mb-10">
-                                                    <h3 className="mb-2 font-serif text-2xl font-semibold tracking-tight text-gray-900 md:text-3xl">
-                                                        {category}
-                                                    </h3>
-                                                    <div className="mb-6 h-1 w-12 bg-gray-900" />
-
-                                                    <ul className="space-y-4">
-                                                        {items.map(
-                                                            (item, idx) => (
-                                                                <li
-                                                                    key={idx}
-                                                                    className="flex items-start gap-4"
-                                                                >
-                                                                    <span className="mt-2 flex h-2 w-2 shrink-0 rounded-full bg-gray-900" />
-                                                                    <span className="text-base leading-relaxed text-gray-700">
-                                                                        {item}
-                                                                    </span>
-                                                                </li>
-                                                            ),
-                                                        )}
-                                                    </ul>
-                                                </div>
-                                            </FadeIn>
                                         ),
                                     )}
                                 </div>
-                            </FadeIn>
-                        )}
+                            </div>
+                        </FadeInHero>
                     </div>
                 </div>
             </section>
