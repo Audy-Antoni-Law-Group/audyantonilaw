@@ -3,7 +3,7 @@
         "home": "Home",
         "about": "About Us",
         "partners": "People",
-        "practices": "Practice Areas",
+        "practices": "Practice Areas & Business Sectors",
         "contact": "Contact"
     },
     "home": {
@@ -39,7 +39,7 @@
                 "hasFirmNameInText": true
             },
             {
-                "text": "Guided by professionalism, discretion, and a steadfast dedication to our clients' interests, we strive to build enduring relationships founded on trust and results. Our commitment is to serve as more than legal advisers—we aim to be strategic partners, standing alongside our clients as they confront challenges, seize opportunities, and advance their business objectives with confidence.",
+                "text": "Guided by professionalism, discretion, and a steadfast dedication to our clients' interests, we strive to build enduring relationships founded on trust and results. Our commitment is to serve as more than legal advisers, we aim to be strategic partners, standing alongside our clients as they confront challenges, seize opportunities, and advance their business objectives with confidence.",
                 "hasFirmName": false
             }
         ],
