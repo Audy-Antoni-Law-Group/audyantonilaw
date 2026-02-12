@@ -68,7 +68,8 @@ export default async function PartnerDetail({
             {/* Main Content */}
             <section className="relative container mx-auto max-w-7xl px-6 py-12 md:px-12 md:py-16">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                    <div className="fixed inset-0 flex items-center justify-center">
+                    {/*
+                      <div className="fixed inset-0 flex items-center justify-center">
                         <div className="w-[320px] h-[320px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px] opacity-[0.05] md:opacity-[0.06]">
                             <Image
                                 src="/images/backgrounds/garuda.webp"
@@ -78,7 +79,8 @@ export default async function PartnerDetail({
                                 aria-hidden="true"
                             />
                         </div>
-                    </div>
+                      </div>
+                    */}
                 </div>
 
                 <div className="relative grid gap-12 lg:grid-cols-12 lg:gap-20">

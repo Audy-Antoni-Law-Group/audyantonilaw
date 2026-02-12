@@ -55,6 +55,7 @@ export default async function About({
             <section className="relative bg-white [clip-path:inset(0)]">
                 {/* Top border */}
                 <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+                {/*
                 <div
                     className="fixed inset-0 pointer-events-none flex items-center lg:justify-start justify-center lg:pl-[calc((100vw-80rem)/2+1.5rem)] md:lg:pl-[calc((100vw-80rem)/2+3rem)]"
                     aria-hidden="true"
@@ -68,6 +69,7 @@ export default async function About({
                         />
                     </div>
                 </div>
+                */}
 
                 <div className="container relative mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
                     <div className="grid gap-16 lg:grid-cols-12 lg:gap-20 items-start">

@@ -54,6 +54,7 @@ export default async function PracticeArea({
                 className="relative bg-white"
                 style={{ clipPath: "inset(0)" }}
             >
+                {/*
                 <div
                     className="fixed inset-0 pointer-events-none flex items-center justify-center z-0"
                     aria-hidden="true"
@@ -67,6 +68,7 @@ export default async function PracticeArea({
                         />
                     </div>
                 </div>
+              */}
 
                 <div className="container relative z-10 mx-auto max-w-7xl px-6 py-20 md:px-12 md:py-32">
                     {/* Header Text */}
