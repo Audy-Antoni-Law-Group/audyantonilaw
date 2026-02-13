@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
     subsets: ["latin"],
 });
 
-const siteUrl = "https://www.audyantonilaw.com/en";
+const siteUrl = "https://www.audyantonilaw.com";
 
 export const metadata: Metadata = {
     metadataBase: new URL(siteUrl),

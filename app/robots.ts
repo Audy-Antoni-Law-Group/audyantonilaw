@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-    const baseUrl = null;
+    const baseUrl = "https://www.audyantonilaw.com";
 
     return {
         rules: [
@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
             },
         ],
         sitemap: `${baseUrl}/sitemap.xml`,
-        // host: baseUrl,
+        host: baseUrl,
     };
 }
