@@ -25,21 +25,37 @@ function FormattedAddress({ address }: { address: string }) {
 export default function ContactHeroInfo({ dict }: ContactHeroInfoProps) {
     return (
         <div className="mt-12 grid gap-8 sm:grid-cols-2 md:mt-16 lg:gap-12">
-            <FadeInHero delay={0.7} duration={0.8}>
-                <div>
-                    <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
-                        {dict.contact.phoneLabel}
-                    </p>
-                    <a
-                        href={`tel:${dict.contact.phone.replace(/\s/g, "")}`}
-                        className="font-serif text-2xl font-light text-white transition-colors hover:text-white/80 md:text-3xl"
-                    >
-                        {dict.contact.phone}
-                    </a>
-                </div>
-            </FadeInHero>
+            <div className="space-y-8">
+                <FadeInHero delay={0.7} duration={0.8}>
+                    <div>
+                        <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
+                            {dict.contact.emailLabel}
+                        </p>
+                        <a
+                            href={`mailto:${dict.contact.email}`}
+                            className="font-serif text-2xl font-light text-white transition-colors hover:text-white/80 md:text-3xl"
+                        >
+                            {dict.contact.email}
+                        </a>
+                    </div>
+                </FadeInHero>
 
-            <FadeInHero delay={0.8} duration={0.8}>
+                <FadeInHero delay={0.8} duration={0.8}>
+                    <div>
+                        <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
+                            {dict.contact.phoneLabel}
+                        </p>
+                        <a
+                            href={`tel:${dict.contact.phone.replace(/\s/g, "")}`}
+                            className="font-serif text-2xl font-light text-white transition-colors hover:text-white/80 md:text-3xl"
+                        >
+                            {dict.contact.phone}
+                        </a>
+                    </div>
+                </FadeInHero>
+            </div>
+
+            <FadeInHero delay={0.9} duration={0.8}>
                 <div>
                     <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
                         {dict.contact.addressLabel}

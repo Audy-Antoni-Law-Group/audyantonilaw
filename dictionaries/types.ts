@@ -84,6 +84,7 @@ export type Dictionary = {
         phone: string;
         phoneLabel: string;
         emailLabel: string;
+        email: string;
         formTitle: string;
         formName: string;
         formEmail: string;
